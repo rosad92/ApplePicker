@@ -301,6 +301,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 287423738969132906, guid: 0945dac99aed54f4e955decbd0b40401,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3277972865578700633, guid: 0945dac99aed54f4e955decbd0b40401,
         type: 3}
       propertyPath: m_Name
@@ -376,5 +381,11 @@ PrefabInstance:
       propertyPath: chanceToChangeDirections
       value: 0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 5432815750441362820, guid: 0945dac99aed54f4e955decbd0b40401,
+        type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 6952089990030979639, guid: b1ecc6af77481a84eb57233834aff032,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0945dac99aed54f4e955decbd0b40401, type: 3}
