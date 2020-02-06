@@ -42,7 +42,10 @@ public class ApplePicker : MonoBehaviour
         GameObject tBasketGo = basketList[basketIndex];
         basketList.RemoveAt(basketIndex);
         Destroy(tBasketGo);
-
+        if (basketList.Count < 1)
+        {
+            SceneManager.LoadScene("Scene_0");
+        }
     }
 
     // Update is called once per frame
